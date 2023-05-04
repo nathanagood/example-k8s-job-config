@@ -8,6 +8,6 @@ spec:
       containers:
       - name: say-hello
         image: grycap/cowsay
-        command: [ "/usr/games/cowsay", "Hello World" ]
+        command: [ "/usr/games/cowsay", "Happy Star Wars Day!" ]
       restartPolicy: Never
   backoffLimit: 4
